@@ -6,6 +6,7 @@ import Inceclass  from './Inceclass';
 import Route1 from './Route'
 import Api from './Api';
 import Name from './Name'
+import Name1 from './Name1'
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
     
       <Text/> */}
       <Name/>
+      <Name1/>
       
       
     </div>

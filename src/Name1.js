@@ -7,15 +7,15 @@ class Name extends React.Component{
 
         }
     }
-    update=()=>{
-        this.setState({name:"Jilla"})
-    }
+    // update=()=>{
+    //     this.setState({name:"Jilla"})
+    // }
     render(){
         return(
 
             <>
             <p>{this.state.name}</p>
-            <button onClick={this.update}>Update Name</button>
+            <button onClick={()=>this.setState({name:"Jilla"})}>Update Name</button>
             </>
         )
     }
