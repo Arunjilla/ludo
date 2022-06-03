@@ -1,6 +1,6 @@
 import React from 'react'
 class Inceclass extends React.Component{
-    constructor(){
+    constructor(props){
         super()
         this.state={
             a:10,
@@ -17,6 +17,7 @@ class Inceclass extends React.Component{
             <>
             <h1>{this.state.a}</h1>
             <button onClick={this.handleupdate}>Incre</button>
+      
             </>
         )
     }

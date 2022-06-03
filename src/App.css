@@ -39,8 +39,8 @@
 
 @media screen and (min-width: 992px) {
   body {
-    background-color: blue;
-    color: white;
+    
+    /* color: white; */
   }
 }
 
@@ -50,4 +50,18 @@
     background-color: olive;
     color: white;
   }
+}
+p
+{
+  margin-top: 6%;
+    font-weight: bold;
+    background: #cec8c8;
+    color: #635858;
+    width: 10%;
+    opacity: 1;
+    height: 10px;
+ 
+}
+p:hover{
+  height: 30px;
 }
