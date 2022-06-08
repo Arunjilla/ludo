@@ -1,13 +1,13 @@
 import React from 'react'
 class Inceclass extends React.Component{
-    constructor(props){
+    constructor(){
         super()
         this.state={
-            a:10,
+            a:1,
 
         }
     }
-    handleupdate=()=>{
+    update=()=>{
         const count=this.state.a
         this.setState({a:count+1})
 
@@ -16,8 +16,8 @@ class Inceclass extends React.Component{
         return(
             <>
             <h1>{this.state.a}</h1>
-            <button onClick={this.handleupdate}>Incre</button>
-      
+            <button onClick={this.update}>Click</button>
+
             </>
         )
     }

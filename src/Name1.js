@@ -1,23 +1,23 @@
-import React from "react";
-class Name extends React.Component{
+import React from 'react'
+class Name1 extends React.Component{
     constructor(){
         super()
         this.state={
-            name: "Arun",
-
+            name:"Arun",
         }
     }
+    
     // update=()=>{
     //     this.setState({name:"Jilla"})
     // }
     render(){
         return(
-
             <>
-            <p>{this.state.name}</p>
-            <button onClick={()=>this.setState({name:"Jilla"})}>Update Name</button>
+            <h1>{this.state.name}</h1>
+            <button onClick={()=>this.setState({name:"Jilla"})}>Click Change Name</button>
+
             </>
         )
     }
 }
-export default Name;
+export default Name1;

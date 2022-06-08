@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
 const Name =()=>{
-    const [name, setname]=useState("Arun")
-   
+    const [name, setname]=useState("Aru")
     return(
-
         <>
-        <p>Name is: {name}</p>
-        <button onClick={()=>setname("Jilla")}>Cilck Name Change </button>
+        <h1>Hi {name}</h1>
+        <button onClick={()=>setname("jilla")}>Click Name Change</button>
         </>
     )
 }
-export default Name;
+export default Name

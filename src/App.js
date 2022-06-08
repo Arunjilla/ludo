@@ -4,20 +4,26 @@ import Text from './Textbox';
 import Incefun from './Incefun'
 import Inceclass  from './Inceclass';
 import Route1 from './Route'
-import Api from './Api';
+import Api1 from './Api1';
 import Name from './Name'
 import Name1 from './Name1'
+import Texbox1 from './Texbox1';
 function App() {
   return (
     <div className="App">
-      <Route1/>
-       {/* <Incefun/>  */}
-      {/* <Api/> 
-       <Inceclass/>  
+       <Route1/>
+       
+          <Inceclass/> 
     
-      <Text/> */}
+      <Text/> 
+   
       <Name/>
       <Name1/>
+      <Incefun/> 
+      <Texbox1/> 
+      
+    <Api1/>
+    
       
       
     </div>
