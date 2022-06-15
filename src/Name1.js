@@ -15,6 +15,7 @@ class Name1 extends React.Component{
             <>
             <h1>{this.state.name}</h1>
             <button onClick={()=>this.setState({name:"Jilla"})}>Click Change Name</button>
+            
 
             </>
         )
